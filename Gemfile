@@ -42,6 +42,8 @@ group :test do
   gem 'rspec-expectations'
   gem 'rspec-mocks'
   gem 'rspec-support'
+  gem 'shoulda-context'
+  gem 'shoulda-matchers'
 end
 
 group :development do
