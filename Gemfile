@@ -34,9 +34,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'rubocop', require: false
+  gem 'rubocop',  require: false
   gem 'brakeman', require: false
-  gem 'reek', require: false
+  gem 'reek',     require: false
 end
 
 group :test do
@@ -47,6 +47,7 @@ group :test do
   gem 'rspec-support'
   gem 'shoulda-context'
   gem 'shoulda-matchers'
+  gem 'simplecov', require: false
 end
 
 group :development do
