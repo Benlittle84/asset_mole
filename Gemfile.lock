@@ -40,6 +40,7 @@ GEM
     ast (2.3.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    brakeman (3.6.1)
     builder (3.2.3)
     byebug (9.0.6)
     coffee-rails (4.1.1)
@@ -179,6 +180,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  brakeman
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
