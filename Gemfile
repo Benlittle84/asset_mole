@@ -36,6 +36,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rubocop', require: false
   gem 'brakeman', require: false
+  gem 'reek', require: false
 end
 
 group :test do
