@@ -1,0 +1,71 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - features/**/*
+    - script/**/*
+    - build.rb
+    - Rakefile
+    - lib/**/*
+    - db/**/*
+    - config/**/*
+    - spec/support/**/*
+
+Documentation:
+  Enabled: false
+
+LineLength:
+  Max: 103
+
+ClassLength:
+  Max: 125
+
+Style/AlignHash:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/SafeNavigation:
+  Enabled: false
+
+Style/TrailingCommaInLiteral:
+  Enabled: false
+
+TrivialAccessors:
+  AllowDSLWriters: true
+
+StringLiterals:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/RedundantBegin:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/AbcSize:
+  Max: 25.5
+
+Metrics/BlockLength:
+  Enabled: false
