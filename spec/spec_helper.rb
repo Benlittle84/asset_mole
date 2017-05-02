@@ -28,6 +28,9 @@ end
 SimpleCov.at_exit do
   threshold = 100
   SimpleCov.result.format!
-  puts "\nFAIL: Test coverage < #{threshold}, please review your unit tests.\n\n"
-  exit(1) if SimpleCov.result.covered_percent < threshold
+
+  if SimpleCov.result.covered_percent < threshold
+    puts "\nFAIL: Test coverage < #{threshold}, please review your unit tests.\n\n"
+    exit(1)
+  end
 end

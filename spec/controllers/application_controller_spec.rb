@@ -1,5 +1,5 @@
-# require 'rails_helper'
+require 'rails_helper'
 
-# describe ApplicationController, type: :controller do
-#   let(:valid_session) { {} }
-# end
+describe ApplicationController, type: :controller do
+  let(:valid_session) { {} }
+end
