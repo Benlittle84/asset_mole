@@ -1,0 +1,33 @@
+.row--banner {
+  background: #1d508d;
+  margin-bottom: 0;
+}
+
+.row--banner .media--lp-logo {
+  display: inline-block;
+}
+
+.row--banner .nav__item--primary {
+  display: inline-block;
+  margin-left: 110px;
+  font-size: 18px;
+  font-size: 1.28571rem;
+  padding: 17px 10px;
+  border-bottom: 1px solid #23394B;
+  position: relative;
+  text-transform: none;
+  font-size: 13px;
+  font-size: 0.92857rem;
+  padding: 21px 4px 18px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav__item.nav__item--primary:before {
+  display:none;
+}
+
+.card {
+  padding: 20px;
+}
