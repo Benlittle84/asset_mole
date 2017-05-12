@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170510015815) do
+ActiveRecord::Schema.define(version: 20170512045836) do
+
+  create_table "assets", force: :cascade do |t|
+    t.text     "serial_num"
+    t.text     "description"
+    t.text     "status"
+    t.text     "notes"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
 
   create_table "orders", force: :cascade do |t|
     t.date     "date"
