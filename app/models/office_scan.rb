@@ -1,0 +1,2 @@
+class OfficeScan < ApplicationRecord
+end
