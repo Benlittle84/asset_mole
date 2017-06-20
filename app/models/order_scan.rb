@@ -1,0 +1,2 @@
+class OrderScan < ApplicationRecord
+end

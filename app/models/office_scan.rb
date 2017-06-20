@@ -1,2 +1,0 @@
-class OfficeScan < ApplicationRecord
-end
